@@ -1,0 +1,13 @@
+------------------------------
+    Minecraft Query Class
+------------------------------
+
+Requirements:
+- 1.8 or higher Minecraft Version.
+- php_sockets enabled.
+------------------------------
+
+Usage:
+MinecraftQuery::query(string $address, int $port, int $timeout)
+
+Returns false if the connection failed, otherwise returns Array with Server Informations.
